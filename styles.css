@@ -17,6 +17,11 @@ Version: 1.0.0
 }
 
 /* Base colors */
+
+* {
+  color: var(--foreground-color) !important;
+}
+
 body,
 html {
   background-color: var(--background-color) !important;
@@ -36,6 +41,19 @@ h4,
 h5,
 h6 {
   color: var(--primary-color) !important;
+}
+
+/* Text fixes */
+.topic-title {
+  color: var(--primary-color) !important;
+}
+
+.text-muted {
+  color: var(--foreground-color) !important;
+}
+
+.text-body {
+  color: var(--foreground-color) !important;
 }
 
 /* Sidebar */
@@ -208,12 +226,12 @@ a.badge {
   border: none;
 }
 
-/* Hack: remove skin switcher as custom CSS is not supported */
-[component="skinSwitcher"] {
-  display: none !important;
-}
-
 /* Catch-all */
 .bg-primary {
   background-color: var(--primary-color) !important;
+}
+
+/* Hack: remove skin switcher as custom CSS is not supported */
+[component="skinSwitcher"] {
+  display: none !important;
 }
