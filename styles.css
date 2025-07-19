@@ -148,6 +148,11 @@ a.badge {
   color: white !important;
 }
 
+.badge.bg-primary {
+  background-color: var(--primary-color) !important;
+  color: white !important;
+}
+
 /* Cards */
 .panel,
 .well,
