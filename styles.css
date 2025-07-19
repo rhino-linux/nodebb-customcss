@@ -16,7 +16,7 @@ Version: 1.0.0
   --primary-hover: #a698f0;
 }
 
-/* Base colours */
+/* Base colors */
 body,
 html {
   background-color: var(--background-color) !important;
