@@ -60,7 +60,8 @@ h6 {
 #panel,
 .sidebar,
 .sidebar-left,
-.sidebar-right {
+.sidebar-right,
+.bottombar-nav {
   background-color: var(--background-color) !important;
   color: var(--foreground-color) !important;
 }
@@ -234,4 +235,10 @@ a.badge {
 /* Hack: remove skin switcher as custom CSS is not supported */
 [component="skinSwitcher"] {
   display: none !important;
+}
+
+/* Tooltips */
+.tooltip-inner {
+  background-color: var(--bg-hover) !important; /* your desired background */
+  color: var(--foreground-color) !important; /* your desired text color */
 }
