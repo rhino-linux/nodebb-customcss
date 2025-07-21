@@ -218,7 +218,7 @@ a.badge {
 }
 
 .dropdown-item:hover {
-  background-color: var(--primary-color);
+  background-color: var(--primary-color) !important;
 }
 
 /* Catch-all */
@@ -240,5 +240,10 @@ a.badge {
 /* Settings */
 .list-group,
 .list-group-item {
-  background-color: var(--bg-hover);
+  background-color: var(--bg-hover) !important;
+}
+
+/* Alert */
+.alert-progress {
+  background-color: var(--primary-color) !important;
 }
