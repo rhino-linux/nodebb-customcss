@@ -134,6 +134,10 @@ i,
   color: var(--foreground-color) !important;
 }
 
+.fa-circle {
+  color: inherit !important;
+}
+
 /* Reply */
 .form-control,
 input,
@@ -233,8 +237,10 @@ a.badge {
 
 /* Tooltips */
 .tooltip-inner {
-  background-color: var(--bg-hover) !important; /* your desired background */
-  color: var(--foreground-color) !important; /* your desired text color */
+  background-color: var(--bg-hover) !important;
+  /* your desired background */
+  color: var(--foreground-color) !important;
+  /* your desired text color */
 }
 
 /* Settings */
