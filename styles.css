@@ -19,7 +19,7 @@ Version: 1.0.0
 
 /* Base colors */
 
-* {
+*:not([data-bg-color]):not(.fa-circle) {
   color: var(--foreground-color) !important;
 }
 
@@ -29,8 +29,8 @@ html {
   color: var(--foreground-color) !important;
 }
 
-a,
-a:visited {
+a:not([data-bg-color]),
+a:visited:not([data-bg-color]) {
   color: var(--primary-color) !important;
   font-weight: bold;
 }
