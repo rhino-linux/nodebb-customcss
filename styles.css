@@ -19,7 +19,7 @@ Version: 1.0.0
 
 /* Base colors */
 
-*:not([data-bg-color]):not(.fa-circle) {
+*:not([data-bg-color]):not(.fa-circle):not(.text-reset):not(a) {
   color: var(--foreground-color) !important;
 }
 
