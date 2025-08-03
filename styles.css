@@ -67,6 +67,13 @@ h6 {
   color: var(--foreground-color) !important;
 }
 
+.border-start,
+.border-end,
+.border-bottom {
+  border-color: var(--bg-form) !important;
+  border-width: 2px !important;
+}
+
 .nav-link:hover,
 .navigation-link:hover {
   background-color: var(--bg-hover) !important;
@@ -222,7 +229,7 @@ a.badge {
 }
 
 .dropdown-item:hover {
-  background-color: var(--primary-color) !important;
+  background-color: var(--bg-form) !important;
 }
 
 /* Catch-all */
