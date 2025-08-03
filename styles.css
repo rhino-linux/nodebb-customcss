@@ -264,3 +264,8 @@ select {
 .alert-progress {
   background-color: var(--primary-color) !important;
 }
+
+/* Hack: Fix box appearing on header hover */
+[component="brand/wrapper"]:hover {
+  background-color: var(--background-color) !important;
+}
