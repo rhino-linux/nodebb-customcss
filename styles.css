@@ -29,8 +29,8 @@ html {
   color: var(--foreground-color) !important;
 }
 
-a:not([data-bg-color]),
-a:visited:not([data-bg-color]) {
+a:not([data-bg-color]):not(.badge),
+a:visited:not([data-bg-color]):not(.badge) {
   color: var(--primary-color) !important;
   font-weight: bold;
 }
@@ -164,7 +164,11 @@ select {
   color: white !important;
 }
 
-a.badge {
+.badge a {
+  color: white !important;
+}
+
+.badge a:visited {
   color: white !important;
 }
 
