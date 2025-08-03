@@ -249,9 +249,7 @@ select {
 /* Tooltips */
 .tooltip-inner {
   background-color: var(--bg-hover) !important;
-  /* your desired background */
   color: var(--foreground-color) !important;
-  /* your desired text color */
 }
 
 /* Settings */
