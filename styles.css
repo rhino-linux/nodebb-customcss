@@ -272,3 +272,8 @@ select {
 .tag-list .tag {
   background: none !important;
 }
+
+.ui-autocomplete {
+    background-color: var(--bg-form) !important;
+    border: none !important;
+}
