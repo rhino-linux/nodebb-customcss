@@ -267,3 +267,8 @@ select {
 [component="brand/wrapper"]:hover {
   background-color: var(--background-color) !important;
 }
+
+/* Tags */
+.tag-list .tag {
+  background: none !important;
+}
